@@ -28,7 +28,7 @@ const Socials = () => {
       </Link>
       <Link
         href={"https://www.linkedin.com/in/nima-moradi-rad-1380s/"}
-        className="hover:text-red-300 transition-all duration-300">
+        className="hover:text-red-300 transition-all duration-300 mr-6">
         <RiLinkedinLine />
       </Link>
     </div>

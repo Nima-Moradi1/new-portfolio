@@ -14,7 +14,8 @@ const Work = () => {
       <Head>
         <title>Projects</title>
       </Head>
-      <div className="h-full bg-primary/30 mt-32 flex items-center">
+      <div className="flex h-32 xl:h-16">.</div>
+      <div className="h-full bg-primary/30 flex items-center">
         <div className="hidden lg:flex">
           <Circles />
         </div>

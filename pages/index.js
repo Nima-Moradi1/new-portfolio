@@ -15,7 +15,7 @@ const Home = () => {
         <title>Portfolio</title>
       </Head>
 
-      <div className=" h-[120vh] xl:h-full ">
+      <div className=" h-[120vh] xl:h-[90vh] ">
         {/* text */}
         <div className="w-full h-full xl:pt-0 bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
           {/* <div className="opacity-0 h-32">.</div> */}
