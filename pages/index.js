@@ -15,9 +15,10 @@ const Home = () => {
         <title>Portfolio</title>
       </Head>
 
-      <div className="bg-primary/60 h-full ">
+      <div className=" h-[120vh] xl:h-full ">
         {/* text */}
-        <div className="w-full h-full pt-16 xl:pt-0 bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
+        <div className="w-full h-full xl:pt-0 bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
+          {/* <div className="opacity-0 h-32">.</div> */}
           <div
             className="text-center flex flex-col justify-center xl:pt-40 
         xl:text-left h-full container mx-auto">
@@ -83,6 +84,7 @@ const Home = () => {
             <Avatar />
           </motion.div>
         </div>
+        {/* <div className="opacity-0 h-32">.</div> */}
       </div>
     </>
   );

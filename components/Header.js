@@ -13,16 +13,16 @@ const Header = () => {
         <div className="flex flex-col lg:flex-row justify-between items-center gap-y-6 py-8 ">
           {/* logo */}
           <Link href={"/"}>
-            <div className="shadow-sm shadow-gray-800 text-4xl font-extrabold text-white  ">
+            <div className="shadow-sm shadow-gray-800 text-[34px] font-extrabold text-white  ">
               <span className="tracking-[2px] font-serif">Nima </span>
-              <span className="text-3xl text-white font-extralight">
+              <span className="text-[27px] text-white font-extralight">
                 Moradi
               </span>
               <span className="text-red-300 font-extrabold">.</span>
             </div>
           </Link>
           {/* social accounts*/}
-          <div>
+          <div className="mb-2">
             <Socials />
           </div>
         </div>
