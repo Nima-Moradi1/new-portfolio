@@ -28,7 +28,7 @@ const Contact = ({ email, onChange }) => {
       <Head>
         <title>Contact Me</title>
       </Head>
-      <div className="h-full bg-primary pt-24">
+      <div className="h-full bg-primary pt-32">
         <ParticlesContainer />
         <div
           className="container mx-auto py-32 text-center xl:text-left flex 
@@ -82,19 +82,10 @@ const Contact = ({ email, onChange }) => {
                 placeholder="Message"
                 required></textarea>
               <button
-                className="btn mb-16 rounded-full border border-white/50 
+                className="hover:scale-110 btn mb-16 rounded-full border border-white/50 
             max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center
             overflow-hidden hover:border-red-300 group">
-                <span
-                  className="group-hover:-translate-y-[120%] group-hover:opacity-0
-              transition-all duration-500">
-                  Let&apos;s Talk
-                </span>
-                <BsArrowRight
-                  className="-translate-y-[120%] opacity-0 group-hover:flex
-              group-hover:-translate-y-0 group-hover:opacity-100 transition-all
-              duration-300 absolute text-[24px]"
-                />
+                <span>Let&apos;s Talk</span>
               </button>
             </motion.form>
           </div>
