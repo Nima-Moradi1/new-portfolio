@@ -18,7 +18,7 @@ const Home = () => {
 
       <div className=" h-[110vh] lg:h-full ">
         {/* text */}
-        <div className="w-full h-full ">
+        <div className="w-full h-full absolute z-10">
           {/* <div className="opacity-0 h-32">.</div> */}
           <div
             className="text-center flex flex-col justify-center
