@@ -55,7 +55,7 @@ const Work = () => {
               <WorkSlider />
             </motion.div>
           </div>
-          <div className="flex opacity-0 mt-12 lg:mt-24">.</div>
+          <div className="flex opacity-0 h-20 lg:mt-24">.</div>
         </div>
         <Bulb />
       </div>
