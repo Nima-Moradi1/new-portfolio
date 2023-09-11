@@ -16,7 +16,7 @@ const Home = () => {
         <title>Portfolio</title>
       </Head>
 
-      <div className=" h-[110vh] lg:h-full ">
+      <div className=" h-[120vh] lg:h-full ">
         {/* text */}
         <div className="w-full h-full absolute z-10">
           {/* <div className="opacity-0 h-32">.</div> */}
