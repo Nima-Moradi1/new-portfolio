@@ -71,7 +71,9 @@ const Home = () => {
             className="bg-none 
         w-full h-full absolute mix-blend-overlay translate-z-0 "></div>
           {/* particles */}
-          <ParticlesContainer />
+          <div className="flex md:hidden">
+            {/* <ParticlesContainer /> */}
+          </div>
 
           {/* avatar image */}
           <div
