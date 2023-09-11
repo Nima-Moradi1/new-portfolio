@@ -72,7 +72,7 @@ const Home = () => {
         w-full h-full absolute mix-blend-overlay translate-z-0 "></div>
           {/* particles */}
           <div className="flex md:hidden">
-            {/* <ParticlesContainer /> */}
+            <ParticlesContainer />
           </div>
 
           {/* avatar image */}

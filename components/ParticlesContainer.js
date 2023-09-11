@@ -22,7 +22,7 @@ const ParticlesContainer = () => {
               value: "",
             },
           },
-          fpsLimit: 120,
+          fpsLimit: 240,
           interactivity: {
             events: {
               onClick: {
@@ -37,11 +37,11 @@ const ParticlesContainer = () => {
             },
             modes: {
               push: {
-                quantity: 80,
+                quantity: 0,
               },
               repulse: {
-                distance: 100,
-                duration: 0.2,
+                distance: 120,
+                duration: 0.01,
               },
             },
           },
@@ -51,7 +51,7 @@ const ParticlesContainer = () => {
             },
             links: {
               color: "#f5d393",
-              distance: 550,
+              distance: 300,
               enable: true,
               opacity: 0.1,
               width: 0.5,
@@ -71,7 +71,7 @@ const ParticlesContainer = () => {
             },
             number: {
               density: {
-                enable: true,
+                enable: false,
                 area: 500,
               },
               value: 70,
