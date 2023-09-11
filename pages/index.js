@@ -77,6 +77,10 @@ const Home = () => {
 
           {/* avatar image */}
           <div
+            variants={fadeIn("down", 0.6)}
+            initial="hidden"
+            animate="show"
+            exit="hidden"
             className="w-full h-full max-w-[707px] max-h-[548px] absolute
         lg:bottom-32 lg:right-[4%]">
             <Avatar />

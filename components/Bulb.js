@@ -7,7 +7,7 @@ const Bulb = () => {
       className="absolute -left-36 -bottom-12 rotate-12 mix-blend-color-dodge
      animate-pulse duration-75 z-10 lg:w-[190px] w-[170px] xl:w-[275px]">
       <Image
-        src={"/light.png"}
+        src={"/noor.webp"}
         alt="bulb"
         width={280}
         height={215}
