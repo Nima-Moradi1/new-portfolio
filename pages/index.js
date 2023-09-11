@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 //variants
 import { fadeIn } from "../variants";
 import Head from "next/head";
+import Link from "next/link";
 
 const Home = () => {
   return (
@@ -47,7 +48,24 @@ const Home = () => {
               that&rsquo;s me! I&rsquo;m trying to better by coding
               everyday and i hope a day would come that i
               wouldn&rsquo;t use StackOverFlow anymore!...
-              <br /> feel free to check out the entire website..{" "}
+              <br /> feel free to check out my &nbsp;
+              <Link
+                href="/about"
+                className="underline cursor-pointer decoration-red-300">
+                Biography in Coding
+              </Link>{" "}
+              , my &nbsp;
+              <Link
+                href="/work"
+                className="decoration-red-300 underline cursor-pointer">
+                Recent Projects
+              </Link>{" "}
+              or to &nbsp;
+              <Link
+                href="/contact"
+                className="decoration-red-300 underline cursor-pointer">
+                Contact Me
+              </Link>
               <br />
             </motion.p>
             {/* btn */}
