@@ -1,17 +1,6 @@
 //next image
 import Image from "next/image";
 
-// import swiper react components
-import { Swiper, SwiperSlide } from "swiper/react";
-
-//import swiper styles
-import "swiper/css";
-import "swiper/css/grid";
-import "swiper/css/pagination";
-
-// import required modules
-import { Pagination } from "swiper/modules";
-
 // icons
 import { BsArrowRight } from "react-icons/bs";
 import Link from "next/link";
@@ -19,28 +8,28 @@ import Link from "next/link";
 const workSlides = {
   images: [
     {
+      title: "Coming Soon..",
+      tools: "",
+      website: "/",
+      path: "/comingsoon3.jpg",
+    },
+    {
+      title: "Coming Soon..",
+      tools: "",
+      website: "/",
+      path: "/comingsoon3.jpg",
+    },
+    {
       title: "NiMovie Website",
       tools: "React.JS, Sass, REST-API",
       website: "https://ni-movie.vercel.app/",
-      path: "/nimovie.webp",
-    },
-    {
-      title: "Admin Panel",
-      tools: "Next.JS, Material UI, Data Grid",
-      website: "/",
-      path: "/adminpanel.webp",
-    },
-    {
-      title: "Airbnb Clone",
-      tools: "Next.JS, Tailwind, Prisma, MongoDB, NextAuth",
-      website: "/",
-      path: "/airbnb.webp",
+      path: "/nimovie.jpg",
     },
     {
       title: "Simple TodoApp",
       tools: "ReactJS, Tailwind",
       website: "https://todo-list-sigma-jet.vercel.app/",
-      path: "/todoapp.webp",
+      path: "/todoapp.jpg",
     },
   ],
 };
