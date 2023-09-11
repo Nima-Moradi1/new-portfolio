@@ -23,7 +23,7 @@ const Home = () => {
           <div
             className="text-center flex flex-col justify-center
         xl:text-left h-full container mx-auto">
-            <div className="opacity-0 h-10 lg:h-44 ">.</div>
+            <div className="opacity-0 h-24 lg:h-44 ">.</div>
             {/* title */}
             <motion.h1
               variants={fadeIn("down", 0.4)}
