@@ -15,14 +15,14 @@ const Home = () => {
         <title>Portfolio</title>
       </Head>
 
-      <div className=" h-[120vh] lg:h-full ">
+      <div className=" h-[110vh] lg:h-full ">
         {/* text */}
         <div className="w-full h-full ">
           {/* <div className="opacity-0 h-32">.</div> */}
           <div
             className="text-center flex flex-col justify-center
         xl:text-left h-full container mx-auto">
-            <div className="opacity-0 sm:h-12 md:h-0 lg:h-44 ">.</div>
+            <div className="opacity-0 lg:h-44 ">.</div>
             {/* title */}
             <motion.h1
               variants={fadeIn("down", 0.4)}
