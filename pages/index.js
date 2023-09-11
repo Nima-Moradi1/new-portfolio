@@ -31,7 +31,7 @@ const Home = () => {
               exit="hidden"
               className="h1">
               Welcome To <br /> Nima&rsquo;s{" "}
-              <span className="animate-charcter text-red-300">
+              <span className="scale-y-125 animate-charcter text-red-300">
                 Portfolio Page
               </span>
             </motion.h1>
