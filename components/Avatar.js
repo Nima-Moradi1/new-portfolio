@@ -19,11 +19,11 @@ const Avatar = () => {
     return (
       <div className="hidden xl:flex xl:max-w-none">
         <Image
-          src={"/bulb.png"}
+          src={"/light.png"}
           width={437}
           height={678}
           alt=""
-          className="translate-z-0 animate-pulse duration-75 ml-48 mt-24 opacity-25"
+          className="translate-z-0 ml-48 mt-24 opacity-75 mix-blend-color-dodge"
         />
       </div>
     );

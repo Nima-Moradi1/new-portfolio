@@ -16,9 +16,7 @@ const Work = () => {
       </Head>
       <div className="flex h-32 xl:h-16">.</div>
       <div className="h-full bg-primary/30 flex items-center">
-        <div className="hidden lg:flex">
-          <Circles />
-        </div>
+        <div className="hidden lg:flex"></div>
         <div className="container mx-auto md:mt-80 xl:mt-24 md:mb-12">
           <div className="flex flex-col xl:flex-row gap-x-8">
             {/* text */}

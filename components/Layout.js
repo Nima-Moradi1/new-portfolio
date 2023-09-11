@@ -14,7 +14,7 @@ import TopLeftImg from "../components/TopLeftImg";
 const Layout = ({ children }) => {
   return (
     <div
-      className="page h-screen bg-site text-white bg-cover bg-no-repeat font-sora 
+      className="page h-screen bg-site text-white font-sora 
      overflow-scroll scrollbar-none">
       <TopLeftImg />
       <Nav />

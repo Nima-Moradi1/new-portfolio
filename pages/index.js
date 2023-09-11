@@ -15,13 +15,14 @@ const Home = () => {
         <title>Portfolio</title>
       </Head>
 
-      <div className=" h-[120vh] xl:h-[90vh] ">
+      <div className=" h-[120vh] lg:h-full ">
         {/* text */}
-        <div className="w-full h-full xl:pt-0 bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
+        <div className="w-full h-full ">
           {/* <div className="opacity-0 h-32">.</div> */}
           <div
-            className="text-center flex flex-col justify-center xl:pt-40 
+            className="text-center flex flex-col justify-center
         xl:text-left h-full container mx-auto">
+            <div className="opacity-0 sm:h-24 md:h-0 lg:h-44 ">.</div>
             {/* title */}
             <motion.h1
               variants={fadeIn("down", 0.4)}
@@ -50,7 +51,7 @@ const Home = () => {
               <br />
             </motion.p>
             {/* btn */}
-            <div className="flex justify-center xl:hidden relative">
+            <div className="flex justify-center xl:hidden relative mb-16 xl:mb-0">
               <ProjectsBtn />
             </div>
             <motion.div
@@ -67,24 +68,23 @@ const Home = () => {
         <div className="xl:w-[1900px] h-full  absolute right-0 bottom-0">
           {/* bg image */}
           <div
-            className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat 
+            className="bg-none 
         w-full h-full absolute mix-blend-overlay translate-z-0 "></div>
           {/* particles */}
           <ParticlesContainer />
 
           {/* avatar image */}
-          <motion.div
-            variants={fadeIn("up", 0.7)}
-            initial="hidden"
-            animate="show"
-            exit="hidden"
-            transition={{ duration: 1, ease: "easeInOut" }}
-            className="w-full h-full max-w-[707px] max-h-[648px] absolute -bottom-32 
-        lg:-bottom-12 lg:right-[1%]">
+          <div
+            className="w-full h-full max-w-[707px] max-h-[548px] absolute
+        lg:bottom-32 lg:right-[4%]">
             <Avatar />
-          </motion.div>
+          </div>
         </div>
-        {/* <div className="opacity-0 h-32">.</div> */}
+        <div
+          className="bg-gradient-to-r 
+        opacity-0 sm:h-16 md:h-20 lg:h-36">
+          .
+        </div>
       </div>
     </>
   );
