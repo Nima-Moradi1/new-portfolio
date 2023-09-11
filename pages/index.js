@@ -42,7 +42,7 @@ const Home = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="text-blue-200 max-w-sm capitalize xl:max-w-lg mx-auto xl:mx-0 mb-10 xl:mb-16">
+              className="text-blue-200 max-w-sm capitalize xl:max-w-lg mx-auto xl:mx-0 mb-5 xl:mb-16">
               You&rsquo;ve probably heard about some programmers that
               live under the shadow of StackOverFlow and Bard!.. well,
               that&rsquo;s me! I&rsquo;m trying to better by coding
