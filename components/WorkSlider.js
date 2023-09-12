@@ -11,13 +11,13 @@ const workSlides = {
       title: "Coming Soon..",
       tools: "",
       website: "/",
-      path: "/comingsoon-main2.jpg",
+      path: "/airbnb-.jpg",
     },
     {
       title: "Coming Soon..",
       tools: "",
       website: "/",
-      path: "/comingsoon-main3.jpeg",
+      path: "/adminpanel-.jpg",
     },
     {
       title: "NiMovie Website",
@@ -43,14 +43,14 @@ const WorkSlider = () => {
             <Link href={image.website} target="_blank">
               <div
                 className=" flex items-center justify-center
-                    relative overflow-hidden cursor-pointer rounded-lg group">
+                    relative overflow-hidden cursor-pointer rounded-xl group">
                 {/* image */}
                 <Image
                   alt=""
                   src={image.path}
-                  width={500}
+                  width={400}
                   height={300}
-                  className="w-[500px] h-[200px]"
+                  className="w-[450px] h-[180px] object-cover"
                 />
                 {/* overlay gradient */}
                 <div
