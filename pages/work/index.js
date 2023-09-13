@@ -14,7 +14,7 @@ const Work = () => {
       <Head>
         <title>Projects</title>
       </Head>
-      <div className="flex h-16">.</div>
+      <div className="flex h-32 lg:h-16">.</div>
       <div className="h-full bg-primary/30 flex items-center">
         <div className="hidden lg:flex"></div>
         <div className="container mx-auto md:mt-80 xl:mt-24 md:mb-12">
@@ -39,8 +39,8 @@ const Work = () => {
                 front-end development , i created some simple but
                 practical projects ... <br /> by hovering on the
                 pictures , you can see the{" "}
-                <span className="text-red-300">Demo</span> and the
-                <span className="text-red-300"> Tools</span> i used to
+                <span className="text-red-400">Demo</span> and the
+                <span className="text-red-400"> Tools</span> i used to
                 create them.. let me know about all your critics and
                 ideas !...
               </motion.p>

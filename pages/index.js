@@ -32,7 +32,7 @@ const Home = () => {
               exit="hidden"
               className="h1">
               Welcome To <br /> Nima&rsquo;s{" "}
-              <span className="scale-y-125 animate-charcter text-red-300">
+              <span className="scale-y-125 animate-charcter text-red-400">
                 Portfolio Page
               </span>
             </motion.h1>
@@ -51,19 +51,19 @@ const Home = () => {
               <br /> feel free to check out my &nbsp;
               <Link
                 href="/about"
-                className="underline cursor-pointer decoration-red-300">
+                className="underline cursor-pointer decoration-red-400">
                 Biography in Coding
               </Link>{" "}
               , my &nbsp;
               <Link
                 href="/work"
-                className="decoration-red-300 underline cursor-pointer">
+                className="decoration-red-400 underline cursor-pointer">
                 Recent Projects
               </Link>{" "}
               or to &nbsp;
               <Link
                 href="/contact"
-                className="decoration-red-300 underline cursor-pointer">
+                className="decoration-red-400 underline cursor-pointer">
                 Contact Me
               </Link>
               <br />

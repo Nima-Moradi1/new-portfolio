@@ -31,9 +31,9 @@ const Nav = () => {
           return (
             <Link
               className={`${
-                item.path === pathname && "text-red-300"
+                item.path === pathname && "text-red-400"
               } relative flex items-center
-              group hover:text-red-300 hover:scale-125 transition-all duration-300`}
+              group hover:text-red-400 hover:scale-125 transition-all duration-300`}
               href={item.path}
               key={index}>
               {/* tooltip*/}

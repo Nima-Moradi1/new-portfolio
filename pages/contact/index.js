@@ -43,7 +43,7 @@ const Contact = ({ email, onChange }) => {
               exit="hidden"
               className="h2 text-center xl:mb-12 ">
               Let&apos;s{" "}
-              <span className="text-red-300">Connect.</span>
+              <span className="text-red-400">Connect.</span>
             </motion.h2>
             {/* form */}
             <motion.form
@@ -84,7 +84,7 @@ const Contact = ({ email, onChange }) => {
               <button
                 className="hover:scale-110 btn mb-16 rounded-full border border-white/50 
             max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center
-            overflow-hidden hover:border-red-300 group">
+            overflow-hidden hover:border-red-400 group">
                 <span>Let&apos;s Talk</span>
               </button>
             </motion.form>

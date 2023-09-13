@@ -18,7 +18,7 @@ const Header = () => {
               <span className="text-[27px] text-white font-extralight">
                 Moradi
               </span>
-              <span className="text-red-300 font-extrabold">.</span>
+              <span className="text-red-400 font-extrabold">.</span>
             </div>
           </Link>
           {/* social accounts*/}

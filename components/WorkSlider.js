@@ -8,14 +8,14 @@ import Link from "next/link";
 const workSlides = {
   images: [
     {
-      title: "Coming Soon..",
-      tools: "",
+      title: "Airbnb Clone",
+      tools: "NextJS,Tailwind,NextAuth",
       website: "/",
       path: "/airbnb-.jpg",
     },
     {
-      title: "Coming Soon..",
-      tools: "",
+      title: "Admin Panel",
+      tools: "NextJS, MUI, DataGrid",
       website: "/",
       path: "/adminpanel-.jpg",
     },
@@ -36,7 +36,7 @@ const workSlides = {
 
 const WorkSlider = () => {
   return (
-    <div className="grid grid-cols-2 gap-4 xl:mr-24">
+    <div className="grid grid-cols-2 gap-4 xl:mr-24 ">
       {workSlides.images.map((image, index) => {
         return (
           <div key={index}>
@@ -50,7 +50,7 @@ const WorkSlider = () => {
                   src={image.path}
                   width={400}
                   height={300}
-                  className="w-[450px] h-[180px] object-cover"
+                  className="w-[450px] h-[180px]"
                 />
                 {/* overlay gradient */}
                 <div
@@ -59,12 +59,14 @@ const WorkSlider = () => {
                       transition-all duration-500"></div>
                 {/* title */}
                 <div
-                  className="absolute bottom-0 translate-y-full
+                  className=" absolute bottom-0 translate-y-full
                       group-hover:-translate-y-10 group-hover:xl:-translate-y-20
                       transition-all duration-300 tracking-widest text-center">
                   {" "}
-                  {image.title}
-                  <div className="text-sm text-black text-center">
+                  <div className="text-white bg-black mb-2 rounded-md">
+                    {image.title}
+                  </div>
+                  <div className="text-sm px-2 mb-2 rounded-md text-black bg-white text-center">
                     {image.tools}
                   </div>
                   <div
