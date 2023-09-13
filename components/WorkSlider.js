@@ -9,13 +9,13 @@ const workSlides = {
   images: [
     {
       title: "Airbnb Clone",
-      tools: "NextJS,Tailwind,NextAuth",
+      tools: "NextJS, Tailwind, NextAuth, Prisma",
       website: "/",
       path: "/airbnb-.jpg",
     },
     {
       title: "Admin Panel",
-      tools: "NextJS, MUI, DataGrid",
+      tools: "NextJS, MUI, Formik, NivoChart",
       website: "/",
       path: "/adminpanel-.jpg",
     },
@@ -42,7 +42,7 @@ const WorkSlider = () => {
           <div key={index}>
             <Link href={image.website} target="_blank">
               <div
-                className=" flex items-center justify-center
+                className="shadow-sm shadow-gray-300 flex items-center justify-center
                     relative overflow-hidden cursor-pointer rounded-xl group">
                 {/* image */}
                 <Image

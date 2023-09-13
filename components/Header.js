@@ -13,7 +13,7 @@ const Header = () => {
         <div className="flex flex-col lg:flex-row justify-between items-center gap-y-6 py-6">
           {/* logo */}
           <Link href={"/"}>
-            <div className="shadow-sm shadow-gray-800 text-[34px] font-extrabold text-white  ">
+            <div className="shadow-sm hover:scale-110 duration-300 shadow-gray-800 text-[34px] font-extrabold text-white  ">
               <span className="tracking-[2px] font-serif">Nima </span>
               <span className="text-[27px] text-white font-extralight">
                 Moradi

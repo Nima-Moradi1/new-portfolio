@@ -51,19 +51,19 @@ const Home = () => {
               <br /> feel free to check out my &nbsp;
               <Link
                 href="/about"
-                className="underline cursor-pointer decoration-red-400">
+                className="underline hover:decoration-red-400 duration-300  cursor-pointer decoration-white">
                 Biography in Coding
               </Link>{" "}
               , my &nbsp;
               <Link
                 href="/work"
-                className="decoration-red-400 underline cursor-pointer">
+                className="underline hover:decoration-red-400 duration-300  cursor-pointer decoration-white">
                 Recent Projects
               </Link>{" "}
               or to &nbsp;
               <Link
                 href="/contact"
-                className="decoration-red-400 underline cursor-pointer">
+                className="underline hover:decoration-red-400 duration-300  cursor-pointer decoration-white">
                 Contact Me
               </Link>
               <br />
