@@ -147,7 +147,7 @@ const About = () => {
               exit="hidden"
               className="h2 text-center xl:ml-12">
               Convert Your&nbsp;
-              <span className="text-red-300">Imagination</span>
+              <span className="text-red-400">Imagination</span>
               &nbsp;To Full-Functional Websites
             </motion.h2>
             <motion.p
@@ -162,7 +162,7 @@ const About = () => {
               building complex projects with Next.JS and dynamic
               websites with a great performance and SEO. you can see
               some of my recent projects{" "}
-              <Link className="text-red-300 underline" href="/work">
+              <Link className="text-red-400 underline" href="/work">
                 Here
               </Link>
               .
@@ -179,7 +179,7 @@ const About = () => {
                   className=" relative flex gap-x-4 mb-10 items-center justify-center xl:flex-col
                  xl:justify-start xl:items-start after:w-[1px] after:h-full after:bg-white/10
               after:absolute after:top-0 after:right-0">
-                  <div className="text-4xl xl:text-5xl font-extrabold text-red-300 mb-1">
+                  <div className="text-4xl xl:text-5xl font-extrabold text-red-400 mb-1">
                     <CountUp start={0} end={10} duration={7} />+
                   </div>
                   <motion.div
@@ -209,7 +209,7 @@ const About = () => {
                     key={itemIndex}
                     className={`${
                       index === itemIndex &&
-                      "text-red-300 after:w-full after:bg-red-300 after:transition-all after:duration-300"
+                      "text-red-400 after:w-full after:bg-red-400 after:transition-all after:duration-300"
                     } 
                   cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px]
                    after:bg-white after:absolute after:-bottom-1 after:left-0`}
