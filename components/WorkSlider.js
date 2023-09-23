@@ -11,13 +11,13 @@ const workSlides = {
       title: "Airbnb Clone",
       tools: "NextJS, Tailwind, NextAuth, Prisma",
       website: "/",
-      path: "/airbnb-.jpg",
+      path: "/comingsoon.jpeg",
     },
     {
       title: "Admin Panel",
       tools: "NextJS, MUI, Formik, NivoChart",
       website: "/",
-      path: "/adminpanel-.jpg",
+      path: "/comingsoon.jpeg",
     },
     {
       title: "NiMovie Website",
