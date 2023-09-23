@@ -26,10 +26,10 @@ const workSlides = {
       path: "/nimovie.jpg",
     },
     {
-      title: "Simple TodoApp",
-      tools: "ReactJS, Tailwind",
-      website: "https://todo-list-sigma-jet.vercel.app/",
-      path: "/todoapp.jpg",
+      title: "Ad-Agency",
+      tools: "ReactJS, Tailwind, Framer",
+      website: "https://adagency.vercel.app/",
+      path: "/adagency.png",
     },
   ],
 };
